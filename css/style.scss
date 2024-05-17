@@ -24,7 +24,6 @@ body {
 }
 
 .navbar-brand {
-    
         img {
             width: 45px;border-radius: 5px 20px 5px 20px;
             transition: 500ms;
@@ -40,25 +39,24 @@ body {
     top: 0;
     z-index: 99999;
     padding: 0 20px;
-
-    & .navbar-toggler {
-    background-color: #009bb6!important;         
-    border: 2px solid white; 
-    }
-
+        & .navbar-toggler {
+        background-color: #009bb6!important;         
+        border: 2px solid white; 
+        }
 
     & .nav-link {
-            color: $color-4!important;
-            font-weight: 400;
-            border-radius: 20px;
-            margin-right: 20px;
-            transition: 500ms;
+        color: $color-4!important;
+        font-weight: 400;
+        border-radius: 20px;
+        margin-right: 20px;
+        transition: 500ms;
+            
             &:hover {
                 transform: scale(1.08);
                 background-color: #006154;
                 border-radius: 20px;
                 color: rgb(255, 251, 0)!important;
-            }
+        }
     }
 }
 
@@ -85,31 +83,25 @@ main {
 .footer {
     background-color: $color-2;
     padding: 6px;
-
-    h2 {
+    .text-footer {
         text-align: center;
-        font-size: 26px;
+        font-size: 1.3rem;
         padding-bottom: 5px;
-    color: rgb(202, 202, 0);
-    font-weight: bold;
+    color: rgb(224, 209, 0);
     }
-
     .links {
         display: flex;
         justify-content: center;
-        gap: 0 40px;
+        gap: 0 30px;
             a{
-                font-size: 24px;
-                color: $color-4;
-                // tempo da animação
-
-            }
+            font-size: 20px;
+            color: $color-4;
+        }
     }
 }
 
 // home home home
 
-//  alinhamento dos titulos
 .text-center {
     text-align: center;
     color: $color-3;
@@ -117,8 +109,8 @@ main {
 }
 
 .cart-center {
-    text-align: start;
-    color: $color-4;
+    text-align: start !important;
+    color: $color-4 !important;
     font-size: 1rem;
     padding:15px 10px;
     span {
@@ -126,19 +118,15 @@ main {
     }
 }
 
-// carrosel 
-
 
 .cart {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
-    .descricao {
-        display: flex;
-        justify-content: space-between;
-    }
-        
+        .descricao {
+            display: flex;
+            justify-content: space-between;
+        }
     .cart-block {
         width: 95%;
         display: flex;
@@ -160,8 +148,6 @@ main {
             width: 100%;
             margin: auto;
             border-radius:20px;
-           
-
         }
         .jogue {
             width: 130px;
@@ -174,12 +160,16 @@ main {
             padding: 5px;
             border-radius: 15px;
             transition: 500ms;
-            &:hover {
+                &:hover {
                 transform: scale(1.07);
             }
         }
       
     }
+}
+
+.login {
+   
 }
 
 
@@ -210,6 +200,7 @@ main {
         width: 60%;
     }
      .cart {
+        margin-bottom: 80px;
 
         .cart-block {
             width: 40%;
@@ -228,6 +219,7 @@ main {
         width:70%;
     }
     .cart {
+        
 
         .cart-block {
             width: 30%;
@@ -236,5 +228,3 @@ main {
     }
 }
 
-
-/* final da home*/

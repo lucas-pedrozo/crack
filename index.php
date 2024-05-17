@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
     <title>Crack Games</title>
+    
     <base href="http://localhost/crack/">
 
     <link rel="stylesheet" href="css/style.css">
@@ -27,7 +28,7 @@
 
     <div class="container-fluid">
 
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.php">
     <img src="imagens/logo.png" alt=" Crack games" title="crack games">
         </a>
 
@@ -42,20 +43,24 @@
             <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="contato">CONTATO</a>
+            <a class="nav-link active" aria-current="page" href="contato">CRIADORES</a>
             </li>
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 JOGOS
             </a>
             <ul class="dropdown-menu ">
-                <li><a class="dropdown-item" href="golden.php">Em Busca Da Golden Apple</a></li>
-                <li><a class="dropdown-item" href="index.php">Em Busca Da Golden Apple</a></li>
+                <li><a class="dropdown-item" href="golden">Em Busca Da Golden Apple</a></li>
+                <li><a class="dropdown-item" href="#">Em Busca Da Golden Apple</a></li>
+                <li><a class="dropdown-item" href="#">Em Busca Da Golden Apple</a></li>
+                <li><a class="dropdown-item" href="#">Em Busca Da Golden Apple</a></li>
+                <li><a class="dropdown-item" href="#">Em Busca Da Golden Apple</a></li>
+                <li><a class="dropdown-item" href="#">Em Busca Da Golden Apple</a></li>
                 <li><a class="dropdown-item" href="#">Em Busca Da Golden Apple</a></li>
             </ul>
             </li>
         </ul>
-       <a href="#" class="btn btn-warning">
+       <a href="login" class="btn btn-warning">
         <strong>LOGIN</strong>
        </a>
         </div>
@@ -69,18 +74,21 @@
 
     if (isset($_GET["param"])) {
         $param = $_GET["param"];  
+        // serapar o parametro por /
         $p = explode("/", $param);
+        //print_r($p);
     }
 
-    $page = $p[0] ?? "home" ;
-    $jogo = $p[1] ?? NULL;
+    $page = $p[0] ?? "home";
+    $jogo = $p[1] ?? null;
 
     if ($page == "jogo") {
         $pagina = "jogo/{$jogo}.php";
+
     } else {
         $pagina = "paginas/{$page}.php";
-    }
-
+    }   
+    
     if (file_exists($pagina)) {
         include $pagina;
     } else {
@@ -91,7 +99,7 @@
     </main>
 
     <footer class="footer">
-        <h2>Contato</h2>
+        <h2 class="text-footer">Contato</h2>
         <div class="links">
         <a href="#">
             <i class="bi bi-instagram"></i>

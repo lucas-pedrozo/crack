@@ -58,5 +58,41 @@
            <h3 class="cart-center"><span>R$:99,00</span></h3>
            </div>
     </div>
+    <div class="cart-block" data-aos="fade-up" data-aos-duration="800ms">
+        <a href="#">
+            <img src="imagens/capa.png" alt="Clique para Jogar" title="Clique para Jogar">
+        </a>
+           <div class="descricao">
+           <h3 class="cart-center">Em Busca Da Golden Apple</h3>
+           <h3 class="cart-center"><span>R$:99,00</span></h3>
+           </div>
+    </div>
+    <div class="cart-block" data-aos="fade-up" data-aos-duration="800ms">
+        <a href="#">
+            <img src="imagens/capa.png" alt="Clique para Jogar" title="Clique para Jogar">
+        </a>
+           <div class="descricao">
+           <h3 class="cart-center">Em Busca Da Golden Apple</h3>
+           <h3 class="cart-center"><span>R$:99,00</span></h3>
+           </div>
+    </div>
+    <div class="cart-block" data-aos="fade-up" data-aos-duration="800ms">
+        <a href="#">
+            <img src="imagens/capa.png" alt="Clique para Jogar" title="Clique para Jogar">
+        </a>
+           <div class="descricao">
+           <h3 class="cart-center">Em Busca Da Golden Apple</h3>
+           <h3 class="cart-center"><span>R$:99,00</span></h3>
+           </div>
+    </div>
+    <div class="cart-block" data-aos="fade-up" data-aos-duration="800ms">
+        <a href="#">
+            <img src="imagens/capa.png" alt="Clique para Jogar" title="Clique para Jogar">
+        </a>
+           <div class="descricao">
+           <h3 class="cart-center">Em Busca Da Golden Apple</h3>
+           <h3 class="cart-center"><span>R$:99,00</span></h3>
+           </div>
+    </div>
 
 </div>

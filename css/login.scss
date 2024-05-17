@@ -1,0 +1,73 @@
+/* corres */
+$color-1:#011c1f;
+$color-2:#0B434A;
+$color-3:#00F0FF;
+$color-6:#F5EF52;
+$color-4:white;
+$color-5:rgb(0, 160, 160);
+$font-1:"Montserrat";
+
+* {
+    margin:0;
+    padding: 0;
+}
+ .margin0 {
+    box-sizing: border-box;
+
+ }
+
+body {
+    background: $color-1 !important;
+    font-family: $font-1 !important;
+    color: white!important;
+
+}
+h3 {
+    margin:0 20px;
+
+}
+
+
+.login {
+    margin: auto;
+    width: 95%;
+    border-radius: 20px;
+    border: 2px solid $color-3;
+    padding: 20px 0;
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+        color: $color-3;
+       padding-bottom: 12px;
+    }
+    .form1{
+        text-align: center;
+        p {
+            text-align: start;
+            margin: 5px 12px;
+        }
+        gap: 0 20px;
+        input {
+            padding: 3px 5px;
+            border-radius: 20px;
+            color: black!important;
+            font-weight: bold;
+        }
+    }
+    .botao {
+        margin-left: 38.5%;
+        text-align: center;
+        background-color: $color-6;
+        font-weight: bold; 
+        padding: 5px;
+        border-radius: 20px;
+            // tempo da animação 
+            transition: 500ms;
+                &:hover {
+                    transform: scale(1.06);
+                    box-shadow:  0 0 10px #68640098;
+                }
+    }
+}
+
+

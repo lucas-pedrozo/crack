@@ -71,20 +71,19 @@ main {
   background-color: #0B434A;
   padding: 6px;
 }
-.footer h2 {
+.footer .text-footer {
   text-align: center;
-  font-size: 26px;
+  font-size: 1.3rem;
   padding-bottom: 5px;
-  color: #caca00;
-  font-weight: bold;
+  color: #e0d100;
 }
 .footer .links {
   display: flex;
   justify-content: center;
-  gap: 0 40px;
+  gap: 0 30px;
 }
 .footer .links a {
-  font-size: 24px;
+  font-size: 20px;
   color: white;
 }
 
@@ -95,8 +94,8 @@ main {
 }
 
 .cart-center {
-  text-align: start;
-  color: white;
+  text-align: start !important;
+  color: white !important;
   font-size: 1rem;
   padding: 15px 10px;
 }
@@ -170,6 +169,9 @@ main {
     width: 60%;
   }
 
+  .cart {
+    margin-bottom: 80px;
+  }
   .cart .cart-block {
     width: 40%;
     margin: 8px;
@@ -189,6 +191,5 @@ main {
     margin: 10px;
   }
 }
-/* final da home*/
 
 /*# sourceMappingURL=style.css.map */
