@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
     <title>Crack Games</title>
+    <base href="http://localhost/crack/">
 
     <link rel="stylesheet" href="css/style.css">
 
