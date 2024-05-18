@@ -24,6 +24,8 @@ h3 {
   border-radius: 20px;
   border: 2px solid #00F0FF;
   padding: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.548);
+  background: #06262b;
 }
 .login h1 {
   text-align: center;
@@ -36,8 +38,7 @@ h3 {
   gap: 0 20px;
 }
 .login .form1 p {
-  text-align: start;
-  margin: 5px 12px;
+  text-align: center;
 }
 .login .form1 input {
   padding: 3px 5px;
@@ -45,18 +46,31 @@ h3 {
   color: black !important;
   font-weight: bold;
 }
-.login .botao {
-  margin-left: 38.5%;
-  text-align: center;
+.login .botao-flex {
+  display: flex;
+  justify-content: center;
+}
+.login .botao-flex .botao {
   background-color: #F5EF52;
   font-weight: bold;
   padding: 5px;
   border-radius: 20px;
   transition: 500ms;
 }
-.login .botao:hover {
+.login .botao-flex .botao:hover {
   transform: scale(1.06);
   box-shadow: 0 0 10px #68640098;
+}
+
+@media (min-width: 430px) and (max-width: 700px) {
+  .login {
+    width: 80%;
+  }
+}
+@media (min-width: 990px) and (max-width: 4000px) {
+  .login {
+    width: 500px;
+  }
 }
 
 /*# sourceMappingURL=login.css.map */

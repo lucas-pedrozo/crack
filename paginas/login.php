@@ -19,16 +19,18 @@
 
         <form method="post" action="index.php">
             <div class="form1">
-            <p data-aos="fade-up" data-aos-duration="500ms"> Nome Completo:</p>
-            <input type="text" name="nome" id="nome" required size="35" title="Digite seu nome Completo" data-aos="fade-up" data-aos-duration="1000ms">
+            <p data-aos="fade-up" data-aos-duration="500ms">Digite Seu Imail:</p>
+            <input type="text" name="nome" id="nome" required size="25"  title="Digite seu nome Completo" data-aos="fade-up" data-aos-duration="1000ms">
             </div>
 </br>
             <div class="form1">
-            <p data-aos="fade-up" data-aos-duration="500ms" class="margin0"> data de Nascimanto:</p>
-            <input type="text" name="nome" id="nome" required size="35" title="Digite seu nome Completo" data-aos="fade-up" data-aos-duration="1000ms">
+            <p data-aos="fade-up" data-aos-duration="500ms" class="margin0">Digite Sua Senha: </p>
+            <input type="text" name="nome" id="nome"  required size="25" title="Digite seu nome Completo" data-aos="fade-up" data-aos-duration="1000ms">
             </div>
 </br>
-            <button type="submit" class="botao" data-aos="fade-up" data-aos-duration="1500ms">Confirmar</button>
+            <div class="botao-flex">
+                <button type="submit" class="botao" data-aos="fade-up" data-aos-duration="1500ms">Confirmar</button>
+            </div>
          </form>
             
 

@@ -107,7 +107,7 @@
         <a href="">
         <i class="bi bi-github"></i>
         </a>
-        <a href="">
+        <a href="https://wa.me/qr/OGED4XU6THFTB1">
         <i class="bi bi-whatsapp"></i>
         </a>
         </div>
